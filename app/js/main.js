@@ -31,10 +31,10 @@ $(function(){
   $('.menu-btn').on('click', function() {
     $('.menu-btn').toggleClass('menu-btn--active');
     $('.menu__list').toggleClass('menu__list--active');
-})
+  })
 
-$('.menu__list-link').on('click', function() {
-    $('.menu-btn').removeClass('menu-btn--active');
-    $('.menu__list').removeClass('menu__list--active');
-})
+  $('.menu__list-link').on('click', function() {
+      $('.menu-btn').removeClass('menu-btn--active');
+      $('.menu__list').removeClass('menu__list--active');
+  })
 });

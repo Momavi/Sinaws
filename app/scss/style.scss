@@ -359,8 +359,12 @@
     margin: 0;
   }
   &__avatar-btn{
-    display: none;
-    margin: 38px 0px 24px 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    &:hover{
+      color: #F5453D;
+      background-color: transparent;
+    }
   }
 
   &-btn{
